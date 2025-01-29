@@ -18,7 +18,7 @@ This is a simple and elegant HTML-based resume showcasing my professional experi
 To view the resume locally:
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/PedroSMorais/Cv-PedroMorais.git]
    ```
 2. Open `index.html` in a web browser.
 
