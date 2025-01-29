@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Morais - Currículo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .contact-info, .skills, .languages, .education, .experience {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .skills ul, .languages ul, .education ul, .experience ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .contact-info p, .skills li, .languages li, .education li, .experience li {
+            margin-bottom: 10px;
+        }
+        .skills li, .languages li, .education li, .experience li {
+            padding-left: 20px;
+            position: relative;
+        }
+        .skills li::before, .languages li::before, .education li::before, .experience li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Foto de perfil -->
+        <img src="Imagens/FotoPedro.jpg" alt="Foto de Pedro Morais" class="profile-picture">
+        <h1>Pedro Morais</h1>
+        <p>Junior Full Stack Developer</p>
+    </header>
+
+    <div class="container">
+        <section class="section about-me">
+            <h2>Sobre Mim</h2>
+            <p>Profissional de logística detalhista com experiência em inspeção de mercadorias, controle de inventário e coordenação de equipes. Comprometido em manter a qualidade e eficiência em ambientes dinâmicos, com foco na otimização de fluxos de trabalho e melhoria de processos da cadeia de suprimentos.</p>
+        </section>
+
+        <section class="section contact-info">
+            <h2>Contacto</h2>
+            <p>+351 919 830 198</p>
+            <p>pedromorsm@gmail.com</p>
+            <p>Porto, Portugal</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Competências</h2>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+
+        <section class="section languages">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Português</li>
+                <li>Inglês</li>
+            </ul>
+        </section>
+
+        <section class="section education">
+            <h2>Educação</h2>
+            <ul>
+                <li><strong>2024</strong> - CODE FOR ALL - Full Stack Bootcamp - Programação</li>
+                <li><strong>2015 - 2018</strong> - UNIVERSIDADE LUSÓFUNA DO PORTO - Licenciatura em Gestão de Recursos Humanos</li>
+            </ul>
+        </section>
+
+        <section class="section experience">
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li><strong>2020 - 2024</strong> - Jerónimo Martins - Warehouse Checker - Verificação de paletes de mercadorias processadas por vários operadores, identificação de erros</li>
+                <li><strong>2018 - 2020</strong> - Xau Laura - Gerente de Restaurante - Processamento de pedidos e coordenação da equipa de receção, supervisão de balcão, atendimento ao cliente, gestão de tesouraria, gestão de stock</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
